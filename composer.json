@@ -1,0 +1,17 @@
+{
+    "name": "reynaldo/estructura_arbol",
+    "description": "Ejemplo para crear una estructura de arbol a partir de un arreglo de objetos",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Reynaldo Cano",
+            "email": "roninjosue88@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Clases\\" : "src/"
+        }
+    }
+}
