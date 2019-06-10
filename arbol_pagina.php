@@ -5,14 +5,6 @@ use Clases\Nodo;
 use Clases\ArbolPaginas;
 use Clases\Pagina;
 
-/*for ($i = 1; $i < 11; $i++) {
-    echo "$i\n";
-    sleep(1);
-    echo "\033[1A";
-}
-
-exit;*/
-
 $paginaAcerca = new stdClass();
 $paginaAcerca->id = 1;
 $paginaAcerca->nombre = "Acerda de";
@@ -103,5 +95,4 @@ $raiz = new Nodo(new Pagina("/", ""));
 $arbol = new ArbolPaginas($raiz);
 
 $arbol->crearArbol($paginasCategoria, 0, $raiz);
-//print_r($raiz);
 $arbol->recorrerArbol($raiz, 0);

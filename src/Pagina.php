@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: TIC2
- * Date: 9/6/2019
- * Time: 10:25
- */
 
 namespace Clases;
 
@@ -58,6 +52,5 @@ class Pagina
     {
         $this->url = $url;
     }
-
 
 }

@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: TIC2
- * Date: 10/6/2019
- * Time: 09:30
- */
 
 namespace Clases;
 
@@ -20,11 +14,8 @@ class ArbolPaginas implements EstructuraArbol
 
     public function recorrerArbol($nodos, $nivel = 0, $imprimir = false, $contador = 0)
     {
-        //$contador = 1;
         if ($nodos !== null) {
-
             $nodos->datos->mostrarPagina($nivel);
-
             foreach ($nodos->hijosNodo as $nodo){
                 $this->recorrerArbol($nodo, $nivel + 1, $imprimir, $contador + 1);
             }

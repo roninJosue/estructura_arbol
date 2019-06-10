@@ -75,5 +75,4 @@ $raiz = new Nodo("/");
 $arbol = new Arbol($raiz);
 
 $arbol->crearArbol($paginasCategoria, 0, $raiz);
-//print_r($raiz);
 $arbol->recorrerArbol($raiz, 0);
